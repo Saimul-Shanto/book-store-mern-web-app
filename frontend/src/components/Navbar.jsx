@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HiOutlineHeart, HiOutlineShoppingCart } from "react-icons/hi";
 import { HiMiniBars3CenterLeft, HiOutlineUser } from "react-icons/hi2";
 import { IoSearch } from "react-icons/io5";
@@ -16,7 +16,7 @@ const navigation=[
 const Navbar = () => {
   const [isDropdownOpen,setIsDropdownOpen]=useState(false);
   // console.log(isDropdownOpen)
-  const currentUser=true;
+  const currentUser=false;
   return (
     <header className='max-w-screen-2xl mx-auto md:px-24 px-4 py-6'>
         <nav className='flex justify-between items-center'>
